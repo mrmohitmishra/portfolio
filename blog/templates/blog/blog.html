@@ -1,1 +1,33 @@
 {% extends 'base.html' %}
+
+{% block title %}
+  aah se upja gaan
+{% endblock title %}
+
+{% block content %}
+
+<main role="main">
+<div class="container text-center">
+  <h1 class="display-2 text-center">Aah se Upja Gaan...</h1>
+<br/>
+<br/>
+<h2 class="text-center display-4">Latest Posts</h2>
+<hr>
+{% for blogpost in blogposts.all %}
+  
+
+<div class="blog-post">
+  <h2 class="blog-post-title display-4">{{blogpost.title}}</h2>
+  <p class="blog-post-meta display-6">Published on {{blogpost.pub_date}}</p>
+  <img src="{{blogpost.image.url}}" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="">
+  <br>
+  <p class="text-left">{{blogpost.body}}</p>
+  <hr>
+  
+</div>
+{% endfor %}
+</div>
+</main>
+  
+{% endblock content %}
+
