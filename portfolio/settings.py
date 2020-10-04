@@ -25,7 +25,7 @@ SECRET_KEY = '-r_s&zrdnvi*z=fe4+&lkuduc9dah*9kj5-j5say7z_4ux-g)%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['157.245.106.189','mohitmishra.online','www.mohitmishra.online']
 
 
 # Application definition
