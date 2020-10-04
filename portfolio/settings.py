@@ -25,7 +25,7 @@ SECRET_KEY = '-r_s&zrdnvi*z=fe4+&lkuduc9dah*9kj5-j5say7z_4ux-g)%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['157.245.106.189','mohitmishra.online','www.mohitmishra.online']
+ALLOWED_HOSTS = ['157.245.106.189','mohitmishra.online','www.mohitmishra.online','localhost','127.0.0.1']
 
 
 # Application definition
@@ -136,10 +136,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
-STATICFILES_DIRS = [os.path.join(BASE_DIR,'portfolio/static'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR,'portfolio','static')]
 MEDIA_URL = '/media/'
 
 try:
-    from local_settings import*
+    from .local_settings import*
 except ImportError:
     pass
