@@ -1,0 +1,16 @@
+server {
+    listen 80;
+    server_name 157.245.106.189;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/mohit/portfolio/portfolio;
+    }
+       location /media/ {
+        root /home/mohit/portfolio/portfolio;
+    }
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/mohit/portfolio/portfolio/myproject.sock;
+    }
+}

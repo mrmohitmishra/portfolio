@@ -1,3 +1,17 @@
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Calibri',Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
+
+
+    @font-face {
+        font-family: 'bebas_neueregular';
+        src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+             url('bebasneue-regular-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
+    h1{
+        font-family: 'bebas_neueregular'; 
+    }
