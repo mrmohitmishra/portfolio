@@ -3,6 +3,7 @@
 
 <head>
     {% load static %}
+    {{form.media}}
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -22,6 +23,7 @@
 </head>
 
 <body>
+    
     <header id="top">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="{% url 'home' %}"><img src="{% static 'untitled.png'%}" alt="Mohit"
@@ -44,9 +46,11 @@
             </div>
         </nav>
     </header>
+    {% autoescape off %}
     {% block content %}
 
     {% endblock content %}
+    {% endautoescape%}
 
     <footer class=" footer mt-auto py-3 text-muted">
         <div class="container">
