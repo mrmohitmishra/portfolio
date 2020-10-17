@@ -6,7 +6,6 @@
 
 
 {% block style %}
-
 <link rel="stylesheet" href='{% static "blog2.css" %}'>
   
 {% endblock style %}
@@ -25,7 +24,7 @@
 </div><hr>
 {% for blogpost in blogposts.all %}
   
-
+<div class="container-fluid text-center">
 <div class="blog-post">
   <a href= {% url 'detail' blogpost.id %}><h2 class="blog-post-title display-4">{{blogpost.title}}</h2></a>
   <p class="blog-post-meta display-6">Published on {{blogpost.prettydate}}</p>
@@ -34,6 +33,7 @@
   <p class="text-left">{{blogpost.summary}}</p>
   <hr>
   
+</div>
 </div>
 {% endfor %}
 </div>
