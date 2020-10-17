@@ -1,5 +1,88 @@
-body{
-    font-family: 'Calibri',Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+@font-face {
+    font-family: 'sahityabold';
+    src: url('sahitya-bold-webfont.woff2') format('woff2'),
+         url('sahitya-bold-webfont.woff') format('woff'),
+         url('sahitya-bold-webfont.ttf') format('truetype'),
+         url('sahitya-bold-webfont.svg#sahityabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sahityaregular';
+    src: url('sahitya-regular-webfont.woff2') format('woff2'),
+         url('sahitya-regular-webfont.woff') format('woff'),
+         url('sahitya-regular-webfont.ttf') format('truetype'),
+         url('sahitya-regular-webfont.svg#sahityaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tillanabold';
+    src: url('tillana-bold-webfont.woff2') format('woff2'),
+         url('tillana-bold-webfont.woff') format('woff'),
+         url('tillana-bold-webfont.ttf') format('truetype'),
+         url('tillana-bold-webfont.svg#tillanabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tillanaextrabold';
+    src: url('tillana-extrabold-webfont.woff2') format('woff2'),
+         url('tillana-extrabold-webfont.woff') format('woff'),
+         url('tillana-extrabold-webfont.ttf') format('truetype'),
+         url('tillana-extrabold-webfont.svg#tillanaextrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tillanamedium';
+    src: url('tillana-medium-webfont.woff2') format('woff2'),
+         url('tillana-medium-webfont.woff') format('woff'),
+         url('tillana-medium-webfont.ttf') format('truetype'),
+         url('tillana-medium-webfont.svg#tillanamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'tillanaregular';
+    src: url('tillana-regular-webfont.woff2') format('woff2'),
+         url('tillana-regular-webfont.woff') format('woff'),
+         url('tillana-regular-webfont.ttf') format('truetype'),
+         url('tillana-regular-webfont.svg#tillanaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sura';
+    src: url('Sura-Regular.ttf') format('truetype'),;
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
@@ -12,6 +95,4 @@ body{
     
     }
 
-    h1{
-        font-family: 'bebas_neueregular'; 
-    }
+    

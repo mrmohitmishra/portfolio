@@ -1,18 +1,28 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}
   aah se upja gaan
 {% endblock title %}
 
+
+{% block style %}
+
+<link rel="stylesheet" href='{% static "blog2.css" %}'>
+  
+{% endblock style %}
+  
+
 {% block content %}
 
 <main role="main">
-<div class="container text-center">
-  <h1 class="display-2 text-center">Aah se Upja Gaan...</h1>
-<br/>
-<br/>
-<h2 class="text-center display-4">Latest Posts</h2>
-<hr>
+  <div class="jumbotron jumbotron-fluid text-center">
+    <div class="container">
+        <img src="{% static 'Logo.png'%}" alt="My image" id="blockimg" class="img-fluid" max-height="auto"
+            max-width="100%">
+        <h1 class="display-3">आह से उपजा गान...</h1>
+        <p class="lead">A place for poetry, unimpeded, true and piercing...</p>
+    </div>
+</div><hr>
 {% for blogpost in blogposts.all %}
   
 

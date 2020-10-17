@@ -1,0 +1,39 @@
+@import url('base.css');
+
+body{
+    background-color:  #333E48 !important;
+    color: white;
+    font-family: 'sura','sahityaregular';
+
+}
+
+h1, h2{
+    color: #FFCF01 !important;
+    font-family: 'tillanaregular','sahityaregular' !important;
+}
+
+
+
+.jumbotron{
+    background-repeat: no-repeat;
+    background-color:  #333E48  !important;
+    color: white;
+
+}
+
+.jumbotron h1{
+    color: #FFCF01;
+    font-family: 'tillanaregular' !important;
+    font-weight: normal;
+}
+
+#blockimg{
+    height:10em;
+    width: 10em;
+    text-align:center;
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 1px;
+
+}
+
