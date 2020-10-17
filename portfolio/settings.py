@@ -97,7 +97,7 @@ DATABASES = {
 }
 
 DJRICHTEXTFIELD_CONFIG = {
-    'js': ['//cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js'],
+    'js': ['//cdn.tiny.cloud/1/o7vrt5umrip0s9p3ahra1we1s1j5s7qboj0vr1zrbuqr37ij/tinymce/5/tinymce.min.js'],
     'init_template': 'djrichtextfield/init/tinymce.js',
     'settings': {
         'menubar': False,
