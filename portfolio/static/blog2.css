@@ -123,9 +123,6 @@ h1, h2{
     font-weight: normal;
 }
 
-.text-left{
-    text-align: left !important;
-}
 #blockimg{
     height:10em;
     width: 10em;
@@ -134,5 +131,9 @@ h1, h2{
     margin: auto;
     margin-bottom: 1px;
 
+}
+
+#poem{
+    text-align: center;
 }
 

@@ -1,13 +1,17 @@
 {% extends "base.html" %}
+{% load static %}
 {% autoescape off %}
+{% block style %}
+<link rel="stylesheet" href='{% static "blog2.css" %}'>
   
+{% endblock style %}
 
 {% block content %}
-<div class="container text-center">
+<div class="container-fluid text-center">
     
       <h1 class="display-2">{{blog.title}}</h1>
       <h2>{{blog.prettydate}}</h2>
-      <div class="text-left">{{blog.body}}</div>
+      <div class="container-fluid text-center" id="poem">{{blog.body}}</div>
 </div>
 {% endblock content %} 
 {% endautoescape %}
